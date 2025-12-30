@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Hadiah Buat Ayang Anggun Tercinta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>💖 Hadiah Buat Ayang Anggun Tercinta 💖</h1>
+
+  <div class="wheel-container">
+    <div id="wheel">
+  <div class="segment" style="--i:0">🍔<span>Gopud 20rb</span></div>
+  <div class="segment" style="--i:1">❌<span>Zonk</span></div>
+  <div class="segment" style="--i:2">💸<span>Dapet limalibu</span></div>
+  <div class="segment" style="--i:3">📸<span>Post foto WA 6 jam</span></div>
+  <div class="segment" style="--i:4">🪙<span>Dapet selibu</span></div>
+  <div class="segment" style="--i:5">💰<span>Dapet dualibu</span></div>
+  <div class="segment" style="--i:6">🎬<span>Login Netplik</span></div>
+  <div class="segment" style="--i:7">🍕<span>Gopud 10rb</span></div>
+  <div class="segment" style="--i:8">🙈<span>No Chat Cabul</span></div>
+  <div class="segment" style="--i:9">❌<span>Zonk</span></div>
+  <div class="segment" style="--i:10">🏔️<span>Gunung Kelud</span></div>
+  <div class="segment" style="--i:11">❌<span>Zonk</span></div>
+</div>
+    <button id="spinBtn">SPIN</button>
+  </div>
+
+  <div class="info">
+    <p>Kesempatan Spin: <span id="chance">2</span></p>
+  </div>
+
+  <!-- Modal Kode -->
+  <div class="modal" id="codeModal">
+    <div class="modal-content">
+      <h2>Masukkan Kode Rahasia 🔐</h2>
+      <input type="number" id="secretCode" placeholder="4 digit kode">
+      <button onclick="verifyCode()">Masuk</button>
+      <p id="codeError"></p>
+    </div>
+  </div>
+
+  <!-- Modal Hadiah -->
+  <div class="modal" id="resultModal">
+    <div class="modal-content">
+      <h2 id="resultText"></h2>
+      <button id="continueBtn">Lanjut Main</button>
+      <button id="redeemBtn">Tukarkan Hadiah</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
