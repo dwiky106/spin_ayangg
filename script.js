@@ -1,7 +1,7 @@
 // ==================================================
 // 🔐 ADMIN SETTING (GANTI KODE DI SINI JIKA PERLU)
 // ==================================================
-let ADMIN_CODE = "0501"; // ⬅️ GANTI KODE BARU DI SINI
+let ADMIN_CODE = "7721"; // ⬅️ GANTI KODE BARU DI SINI
 // ==================================================
 
 // Cek apakah kode ini sudah pernah dipakai
